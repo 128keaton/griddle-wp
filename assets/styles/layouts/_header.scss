@@ -1,0 +1,27 @@
+.name-tag {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    grid-area: header;
+
+    a, p{
+        margin-left: 12px;
+    }
+
+    h1{
+        font-weight: 100;
+        font-size: 45px;
+        margin-right: 2.2em;
+    }
+    
+    .name-tag-picture{
+        width: 8em;
+        height: 8em;
+        margin-right: 2.2em;
+        border: 4px solid black;
+    }
+}
+
+
+

@@ -1,0 +1,48 @@
+// Search form
+.search-form {
+    @extend .form-inline;
+}
+
+.search-form label {
+    font-weight: normal;
+    @extend .form-group;
+}
+
+.search-form .search-field {
+    @extend .form-control;
+}
+
+.search-form .search-submit {
+    @extend .btn;
+    @extend .btn-secondary;
+}
+
+// Contact
+.contact-form {
+    grid-area: contact;
+    margin-top: 5em;
+    
+    h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+
+    input,
+    textarea {
+        background: none;
+        border: none;
+        font-size: 14px;
+        color: white!important;
+        padding-bottom: 0.5em;
+        border-bottom: 2px solid white;
+        margin-top: 1em;
+        width: 50%;
+    }
+    input::-moz-placeholder,
+    textarea::-moz-placeholder {
+        color: #FFFFFF;
+    }
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,16 @@
+.service{
+    max-width: 65%;
+
+    h3{
+       font-family: 'Archivo Narrow', sans-serif;
+       border-bottom: 1px solid #ffffff;
+       background-color: #ffffff;
+       color:  $blue-color;
+    }
+}
+.services-header{
+    text-align: left;
+    .sow-headline{
+        text-align: left!important;
+    }
+}

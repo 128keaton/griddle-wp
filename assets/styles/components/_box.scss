@@ -1,0 +1,86 @@
+.box {
+    padding: 2.5em;
+    text-align: left;
+    font-size: 22px;
+
+    .upper-message{
+      grid-area: message;
+
+      h1{
+        font-size: 4rem;
+        font-weight: normal;
+      }
+    }
+
+    .left{
+      grid-area: content;
+    }
+
+    .right{
+      grid-area: secondary;
+    }
+
+    .main-link{
+      margin-top: 12px;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      align-content: center;
+
+      a{
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+    }
+    
+  p {
+    font-size: 1em;
+  }
+
+}
+
+// Colors
+.blue {
+    background-color: $blue-color;
+    color: #e1ebf7;
+}
+
+.psychologist-box{
+    grid-area: phd;
+    display: grid;
+    grid-template-areas: "message . secondary" "content . secondary";
+    grid-template-columns: 50% auto;
+}
+
+.blue-title {
+    color: #3151b7!important;
+}
+
+.green {
+    background-color: #57d785;
+    grid-area: author;
+}
+
+.green-title {
+    color: #57d785!important;
+}
+
+.orange {
+    background-color: #fe6100;
+    color: #fccec7;
+    grid-area: person;
+}
+
+.orange-title {
+    color: #fe6100!important;
+}
+
+.red {
+    background-color: #ff5c49;
+    grid-area: speaker;
+}
+
+.red-title {
+    color: #ff5c49!important;
+}

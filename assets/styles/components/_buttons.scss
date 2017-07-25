@@ -1,0 +1,45 @@
+// lil chevron for links
+.arrow {
+    width: 0.5em;
+    height: 0.5em;
+    background: transparent;
+    border-top: .1rem solid white;
+    border-right: .1rem solid white;
+    padding: 1px;
+    box-shadow: 0 0 0 lightgrey;
+    transform: rotate(45deg);
+}
+
+// Book Buy Button
+.buy-button {
+    display: block;
+    padding: .6em 1em .6em 1em;
+    max-width: 14em;
+    text-align: center;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+// Home Link 
+
+.home-link {
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+    margin-top: 55px;
+}
+
+.contact-form button {
+    border: none;
+    border-radius: 0;
+    width: auto;
+    padding: 1em;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 1em;
+    width: 50%;
+}

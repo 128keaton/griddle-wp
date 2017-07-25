@@ -1,0 +1,43 @@
+.inner-wrapper{
+    flex: 1;
+    padding: 2.5em;
+    h1{
+        font-size: 7rem;
+        font-weight: normal;
+        margin-top: 42px;
+        margin-bottom: 42px;
+        color: rgba(255, 255, 255, 0.65);
+    }
+    h2{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+.book {
+    max-width: 65%;
+    .inner{
+        display: flex;
+        align-items: center;
+    }
+
+    h2{
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 30px;
+        font-weight: bold;  
+    }
+
+   .description{
+        display: flex;
+        flex-direction: column;
+        margin: 22px;
+        p{
+            font-size: 22px;
+        }
+   }
+   img{
+       margin: 0 auto;
+       display: block;
+       background-color: #ffffff;
+   }
+}
+

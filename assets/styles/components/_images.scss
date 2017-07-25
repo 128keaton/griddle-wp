@@ -1,0 +1,22 @@
+// Name Tag Image
+.no-webp {
+    // WARNING: Do not put global style here
+    .name-tag-picture {
+        background: url('../images/mekel.jpg') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.webp{
+    // WARNING: Do not put global style here
+    .name-tag-picture{
+        background: url('../images/mekel.webp') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
