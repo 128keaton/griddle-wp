@@ -1,43 +1,71 @@
-.inner-wrapper{
+.inner-wrapper {
     flex: 1;
     padding: 2.5em;
-    h1{
+    h1 {
         font-size: 7rem;
         font-weight: normal;
         margin-top: 42px;
         margin-bottom: 42px;
         color: rgba(255, 255, 255, 0.65);
     }
-    h2{
+    h2 {
         margin-top: 25px;
         margin-bottom: 25px;
     }
 }
+
 .book {
     max-width: 65%;
-    .inner{
+    .inner {
         display: flex;
         align-items: center;
     }
-
-    h2{
+    h2 {
         font-family: 'Archivo Narrow', sans-serif;
         font-size: 30px;
-        font-weight: bold;  
     }
-
-   .description{
+    .decoration {
+        display: none;
+    }
+    .description {
         display: flex;
         flex-direction: column;
-        margin: 22px;
-        p{
-            font-size: 22px;
+        p {
+            font-size: 20px;
+            color: #ffffff;
         }
-   }
-   img{
-       margin: 0 auto;
-       display: block;
-       background-color: #ffffff;
-   }
+    }
+    img {
+        margin: 0 auto;
+        display: block;
+        background-color: #ffffff;
+    }
 }
 
+.buy {
+    display: flex;
+}
+
+.sow-testimonials {
+    display: flex;
+    .sow-testimonial {
+        height: 100%;
+        .sow-text span {
+            font-size: 14px;
+        }
+        .sow-testimonial-user {
+            width: auto!important;
+            float: none!important;
+            border-bottom: 2px solid $green-color;
+        }
+        .sow-testimonial-text {
+            margin-left: 0!important;
+        }
+    }
+}
+
+.widget-title {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1em;
+}

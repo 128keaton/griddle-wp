@@ -8,6 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "header header header" "phd phd phd" "speaker author person" "footer footer footer";
-    grid-gap: 1rem;
+    grid-gap: $grid-gap;
     flex: 1;
 }

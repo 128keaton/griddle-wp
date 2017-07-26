@@ -11,7 +11,7 @@
         <div class="left">
             <p>I am a licensed psychologist, a nationally certified health service psychologist, and a nationally certified school psychologist (NCSP) based in Memphis, TN. I specialize in therapy and assessment for children, adolescents, adults, and families.</p>
             <div class="main-link">
-                <a href="">Services</a>
+                <a href="/psychologist/">Services</a>
                 <a class="arrow"></a>
             </div>
 

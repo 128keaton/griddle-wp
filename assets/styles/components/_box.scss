@@ -58,8 +58,11 @@
 }
 
 .green {
-    background-color: #57d785;
+    background-color: $green-color;
     grid-area: author;
+    .home-link{
+        color: #FFFFFF;
+    }
 }
 
 .green-title {
@@ -67,20 +70,20 @@
 }
 
 .orange {
-    background-color: #fe6100;
+    background-color: $orange-color;
     color: #fccec7;
     grid-area: person;
 }
 
 .orange-title {
-    color: #fe6100!important;
+    color: $orange-color!important;
 }
 
 .red {
-    background-color: #ff5c49;
+    background-color: $red-color;
     grid-area: speaker;
 }
 
 .red-title {
-    color: #ff5c49!important;
+    color: $red-color!important;
 }

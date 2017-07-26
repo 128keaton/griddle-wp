@@ -1,4 +1,4 @@
-.service{
+.service, .background{
     max-width: 65%;
 
     h3{
@@ -6,9 +6,13 @@
        border-bottom: 1px solid #ffffff;
        background-color: #ffffff;
        color:  $blue-color;
+       padding-left: 0.2em;
+    }
+    p{
+        font-size: 1.2em;
     }
 }
-.services-header{
+.psychologist-header{
     text-align: left;
     .sow-headline{
         text-align: left!important;
