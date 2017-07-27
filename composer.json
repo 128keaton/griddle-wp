@@ -1,10 +1,15 @@
 {
-  "name": "roots/sage",
+  "name": "128keaton/griddle-wp",
   "type": "wordpress-theme",
   "license": "MIT",
-  "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
-  "homepage": "https://roots.io/sage/",
+  "description": "Do not use unless you are 128keaton. Based off of sage",
+  "homepage": "https://github.com/128keaton/griddle-wp/",
   "authors": [
+    {
+      "name": "Keaton Burleson",
+      "email": "me@128keaton.com",
+      "homepage": "https://128keaton.com"
+    },
     {
       "name": "Ben Word",
       "email": "ben@benword.com",
@@ -19,10 +24,6 @@
   "keywords": [
     "wordpress"
   ],
-  "support": {
-    "issues": "https://github.com/roots/sage/issues",
-    "forum": "https://discourse.roots.io/"
-  },
   "require": {
     "php": ">=5.4.0",
     "composer/installers": "~1.0"
