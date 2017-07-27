@@ -4,6 +4,9 @@
       "files": [
         "scripts/main.js"
       ],
+      "vendor": [
+	"assets/scripts/modernizr.js"
+      ],
       "main": true
     },
     "main.css": {
@@ -22,11 +25,6 @@
     },
     "images": {
       "files": ["images/**/*"]
-    },
-    "modernizr.js": {
-      "files": [
-        "scripts/modernizr.js"
-      ]
     }
   },
   "config": {
