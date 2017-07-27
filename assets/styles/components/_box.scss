@@ -1,52 +1,48 @@
+// TODO Refactor this file
 .box {
     padding: 2.5em;
     text-align: left;
     font-size: 22px;
-
-    .upper-message{
-      grid-area: message;
-
-      h1{
-        font-size: 4rem;
-        font-weight: normal;
-      }
+    .upper-message {
+        grid-area: message;
+        h1 {
+            font-size: 4rem;
+            font-weight: normal;
+        }
     }
-
-    .left{
-      grid-area: content;
+    .left {
+        grid-area: content;
     }
-
-    .right{
-      grid-area: secondary;
+    .right {
+        grid-area: secondary;
     }
-
-    .main-link{
-      margin-top: 12px;
-      color: white;
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      align-content: center;
-
-      a{
-        color: #FFFFFF;
+    .main-link {
+        margin-top: 12px;
+        color: white;
         text-decoration: none;
-      }
+        display: flex;
+        align-items: center;
+        align-content: center;
+        a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
     }
-    
-  p {
-    font-size: 1em;
-  }
-
+    p {
+        font-size: 1em;
+    }
 }
 
 // Colors
 .blue {
     background-color: $blue-color;
     color: #e1ebf7;
+    .home-link {
+        color: #FFFFFF;
+    }
 }
 
-.psychologist-box{
+.psychologist-box {
     grid-area: phd;
     display: grid;
     grid-template-areas: "message . secondary" "content . secondary";
@@ -60,7 +56,7 @@
 .green {
     background-color: $green-color;
     grid-area: author;
-    .home-link{
+    .home-link {
         color: #FFFFFF;
     }
 }
@@ -86,4 +82,9 @@
 
 .red-title {
     color: $red-color!important;
+}
+.blog{
+    h1{
+        color: #000000!important;
+    }
 }

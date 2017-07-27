@@ -14,58 +14,51 @@
     }
 }
 
-.book {
-    max-width: 65%;
-    .inner {
-        display: flex;
-        align-items: center;
-    }
-    h2 {
+
+.front-page {
+    margin-top: 2em;
+    h3 {
         font-family: 'Archivo Narrow', sans-serif;
-        font-size: 30px;
-    }
-    .decoration {
-        display: none;
-    }
-    .description {
-        display: flex;
-        flex-direction: column;
-        p {
-            font-size: 20px;
-            color: #ffffff;
-        }
-    }
-    img {
-        margin: 0 auto;
-        display: block;
-        background-color: #ffffff;
     }
 }
 
-.buy {
+
+
+/* Name Tag
+    Appears in header and footer 
+*/
+.name-tag {
+    text-align: left;
     display: flex;
-}
+    align-items: center;
+    padding: 10px;
+    grid-area: header;
+    color: #000000;
 
-.sow-testimonials {
-    display: flex;
-    .sow-testimonial {
-        height: 100%;
-        .sow-text span {
-            font-size: 14px;
+    a, p{
+        margin-left: 12px;
+    }
+
+
+    h1{
+        font-weight: 100;
+        font-size: 45px;
+        margin-right: 2.2em;
+        a{
+            color: #000000;
         }
-        .sow-testimonial-user {
-            width: auto!important;
-            float: none!important;
-            border-bottom: 2px solid $green-color;
+        a:hover{
+            text-decoration: none;
         }
-        .sow-testimonial-text {
-            margin-left: 0!important;
-        }
+    }
+    
+    .name-tag-picture{
+        width: 8em;
+        height: 8em;
+        margin-right: 2.2em;
+        border: 4px solid black;
     }
 }
 
-.widget-title {
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 30px;
-    margin-bottom: 1em;
-}
+
+

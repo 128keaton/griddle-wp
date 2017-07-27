@@ -17,15 +17,29 @@
     @extend .btn-secondary;
 }
 
+// Contact Form Errors:
+.wpcf7-response-output {
+    position: absolute;
+    top: -12px;
+    width: 100%;
+    left: -12px;
+    height: 120px;
+    padding-top: 40px!important;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ajax-loader {
+    display: none;
+}
+
+
+
 // Contact
 .contact-form {
     grid-area: contact;
-    margin-top: 5em;
-
-    h3 {
-        font-family: 'Archivo Narrow', sans-serif;
-    }
-
     input,
     textarea {
         background: none;
@@ -36,6 +50,25 @@
         border-bottom: 2px solid white;
         margin-top: 1em;
         width: 50%;
+        margin-bottom: 1em;
+    }
+    p {
+        font-size: 1.2em;
+        margin-bottom: 2em;
+    }
+    [type=submit] {
+        border: none;
+        border-radius: 0;
+        width: auto;
+        padding: 1em;
+        background-color: #FFFFFF;
+        font-size: 14px;
+        color: #000000!important;
+        margin-top: 1em;
+        width: 50%;
+    }
+    textarea {
+        max-height: 100px;
     }
     input::-moz-placeholder,
     textarea::-moz-placeholder {

@@ -4,15 +4,25 @@
     align-items: center;
     padding: 10px;
     grid-area: header;
+    color: #000000;
 
     a, p{
         margin-left: 12px;
+    }
+    p{
+        margin-left: 2em;
     }
 
     h1{
         font-weight: 100;
         font-size: 45px;
         margin-right: 2.2em;
+        a{
+            color: #000000;
+        }
+        a:hover{
+            text-decoration: none;
+        }
     }
     
     .name-tag-picture{

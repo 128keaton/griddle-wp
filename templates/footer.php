@@ -1,6 +1,6 @@
 <div class="box footer">
 	<div class="name-tag">
-		<h1>Mekel Harris</h1>
+		<h1><a href="/">Mekel Harris</a></h1>
           <?php
       if (has_nav_menu('primary_navigation')) :
         wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);

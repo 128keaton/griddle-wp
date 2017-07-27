@@ -1,0 +1,129 @@
+// Griddle Standard
+
+.griddle {
+    background-color: #000;
+    color: #ffffff;
+    .media-header {
+        h3 {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: 30px;
+            margin-bottom: 0;
+            background-color: #ffffff;
+            color: #000;
+            padding-left: 0.2em;
+        }
+        .decoration{
+            display: none;
+        }
+    }
+    .media-description{
+        p{
+            font-size: 20px;
+        }
+    }
+    .home-link{
+        color: #ffffff;
+    }
+}
+
+
+// Author
+
+.book {
+    max-width: 65%;
+    .inner {
+        display: flex;
+        align-items: center;
+    }
+    h2 {
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 30px;
+    }
+    .decoration {
+        display: none;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        p {
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+    img {
+        margin: 0 auto;
+        display: block;
+        background-color: #ffffff;
+    }
+}
+
+.buy {
+    display: flex;
+}
+
+.sow-testimonials {
+    display: flex;
+    .sow-testimonial {
+        height: 100%;
+        .sow-text span {
+            font-size: 14px;
+        }
+        .sow-testimonial-user {
+            width: auto!important;
+            float: none!important;
+            border-bottom: 2px solid $green-color;
+        }
+        .sow-testimonial-text {
+            margin-left: 0!important;
+        }
+    }
+}
+
+.widget-title {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1em;
+}
+
+// Speaker
+.speaker {
+    color: #ffffff;
+    .home-link {
+        color: #ffffff;
+    }
+}
+
+.speech {
+    max-width: 65%;
+    .sow-headline-container {
+        .sow-headline {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: 30px;
+            margin-bottom: 0;
+            background-color: #ffffff;
+            color: $red-color;
+            padding-left: 0.2em;
+        }
+        .decoration {
+            display: none;
+        }
+        h3 {
+            font-family: 'Archivo Narrow', sans-serif;
+            font-size: 20px;
+        }
+    }
+    p {
+        font-size: 1.2em;
+    }
+}
+
+// Human
+
+.human{
+    p{
+        font-size: 20px;
+    }
+    .home-link{
+        color: #ffffff;
+    }
+}

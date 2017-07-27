@@ -17,28 +17,9 @@
 
         </div>
         <div class="right">
-            <div class="contact-form">
-                <form id="contact-form" action="/" method="post">
-                    <h3>Get in touch</h3>
-                    <div>
-                        <input placeholder="Name" type="text" tabindex="1" required>
-                    </div>
-                    <div>
-                        <input placeholder="Email Address" type="email" tabindex="2" required>
-                    </div>
-                    <div>
-                        <textarea placeholder="Message" tabindex="5" required></textarea>
-                    </div>
-                    <div>
-                        <button name="submit" type="submit" id="contact-submit">Send Email</button>
-                    </div>
-                </form>
-            </div>
+            <?php dynamic_sidebar('front-page'); ?>
         </div>
-
-
     </div>
-
     <div class="box green" id="author">
         <div class="upper-message">
             <h1>Author</h1>
@@ -63,7 +44,7 @@
 
         <p>Lorum ipsum bull</p>
         <div class="main-link">
-            <a href="">View my talks</a>
+            <a href="/speaker">View my talks</a>
             <a class="arrow"></a>
         </div>
 
@@ -73,17 +54,13 @@
     <div class="box orange" id="human">
         <div class="upper-message">
             <h1>Human</h1>
-
         </div>
-
         <p>I enjoy traveling and experiencing beautiful new sights around the world. When home, I enjoy quality time with my family and close friends, as well as singing. I'm an avid journal writer who cherishes quiet time with Jesus, cinnamon Chai tea lattes,
             gorgeous sunsets, and walks in the park with my sweet 14 year-old Beagle, Hunter</p>
         <div class="main-link">
-            <a href="">Get to know me</a>
+            <a href="/about">Get to know me</a>
             <a class="arrow"></a>
         </div>
-
-
     </div>
     <?php
       do_action('get_footer');

@@ -24,22 +24,27 @@
     font-size: 16px;
 }
 
-// Home Link 
+.current-menu-item a {
+    color: #093861;
+    text-decoration: underline;
+}
 
+.services-link a {
+    color: $blue-color;
+}
+
+.book-link a {
+    color: $green-color;
+}
+
+.talks-link a {
+    color: $red-color;
+}
+
+// Home Link 
 .home-link {
     font-size: 22px;
     text-decoration: none;
     display: block;
     margin-top: 55px;
-}
-
-.contact-form button {
-    border: none;
-    border-radius: 0;
-    width: auto;
-    padding: 1em;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    margin-top: 1em;
-    width: 50%;
 }
