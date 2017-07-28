@@ -1,0 +1,84 @@
+@include media-query($on-palm) {
+    .box {
+        padding: 1.5em;
+        .upper-message {
+            h1 {
+                margin-bottom: 0.5em;
+            }
+        }
+    }
+    .home-wrapper {
+        grid-template-columns: 1fr;
+        .name-tag {
+            margin-top: 1em;
+            padding: 0;
+            flex-wrap: wrap;
+            padding-left: 2em;
+            .name-tag-picture {
+                margin: 0;
+                margin-bottom: 1em;
+            }
+            h1 {
+                margin: 0;
+            }
+        }
+        grid-template-areas: "header" "phd" "speaker" "author" "person" "footer";
+        .psychologist-box {
+            display: block;
+            .right {
+                display: none;
+            }
+        }
+    }
+    .sow-headline {
+        font-size: 3rem!important;
+    }
+    .speech {
+        max-width: 100%;
+    }
+    .service,
+    .background {
+        max-width: 100%;
+    }
+    .service {
+        form {
+            max-width: 100%;
+            margin: 0;
+        }
+    }
+    .post {
+        width: 100%;
+        padding: 1em;
+        max-width: 100%;
+    }
+    .inner-wrapper {
+        padding: 1em;
+        h1 {
+            font-size: 5rem;
+        }
+    }
+    .footer {
+        padding: 1em;
+        p {
+            margin-top: 0.5em;
+            margin-left: 0;
+        }
+        .name-tag {
+            text-align: left;
+            padding: 0;
+            flex-direction: column;
+            display: block;
+            a {
+                margin-left: 0;
+                margin-right: 0.5em;
+            }
+            h1 {
+                a {
+                    margin: 0;
+                }
+                margin: 0;
+                margin-bottom: 0.5em;
+            }
+        }
+    }
+}

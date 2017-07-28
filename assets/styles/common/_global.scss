@@ -26,3 +26,30 @@ p{
 *:focus {
     outline: none;
 }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@include media-query($on-palm) {
+    .inner-wrapper {
+        padding: 1em;
+        h1 {
+            font-size: 5rem;
+        }
+    }
+}
+
+@include media-query(1200px) {
+    .inner-wrapper {
+        padding: 1em;
+        h1 {
+            font-size: 5rem;
+        }
+    }
+}
+
+// Hello Boys!
+@include media-query(1360px) {}
