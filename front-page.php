@@ -1,61 +1,55 @@
 <div class="home-wrapper">
     <div class="name-tag">
-        <div class="name-tag-picture"></div>
-        <h1>Mekel Harris</h1>
+        <div class="name-tag-picture" style="background-image: url(<?php echo get_theme_mod('header_image') ?>);"></div>
+        <h1><?php echo get_bloginfo( 'name' )?></h1>
     </div>
+    <!-- Blue -->
     <div class="box blue psychologist-box" id="ph.d">
         <div class="upper-message">
-            <h1>Ph.d</h1>
-            <p>PSY 23756</p>
+            <h1><?php echo get_theme_mod('main_box_title') ?></h1>
+            <p><?php echo get_theme_mod('main_box_subtitle') ?></p>
         </div>
         <div class="left">
-            <p>I am a licensed psychologist, a nationally certified health service psychologist, and a nationally certified school psychologist (NCSP) based in Memphis, TN. I specialize in therapy and assessment for children, adolescents, adults, and families.</p>
+            <p><?php echo get_theme_mod('main_box_text') ?>.</p>
             <div class="main-link">
-                <a href="/psychologist/">I can help</a>
-                
+                <a href="<?php echo get_theme_mod('main_box_url') ?>"><?php echo get_theme_mod('main_box_button_title') ?></a>
             </div>
-
         </div>
         <div class="right">
             <?php dynamic_sidebar('front-page'); ?>
         </div>
     </div>
+    <!-- Green -->
     <div class="box green author-box" id="author">
         <div class="upper-message">
-            <h1>Author</h1>
+            <h1><?php echo get_theme_mod('green_box_title') ?></h1>
+            <p><?php echo get_theme_mod('green_box_subtitle') ?></p>
         </div>
-        <p>After my beloved mother died in December 2012, it became important for me to share my story in order to inspire others traveling along grief's challenging road.</p>
+        <p><?php echo get_theme_mod('green_box_text') ?></p>
         <div class="main-link">
-            <a href="/author">Read my book</a>
-            
+            <a href="<?php echo get_theme_mod('green_box_url') ?>"><?php echo get_theme_mod('green_box_button_title') ?></a>
         </div>
-
-
     </div>
-
+    <!-- Red -->
     <div class="box red speaker-box" id="speaker">
         <div class="upper-message">
-            <h1>Speaker</h1>
-
+             <h1><?php echo get_theme_mod('red_box_title') ?></h1>
+             <p><?php echo get_theme_mod('red_box_subtitle') ?></p>
         </div>
-
-        <p>I enjoyed the privilege of doing a TEDx talk on May 1, 2015 in Houston, TX, which showcased the theme: "A Palette of Perspectives."</p>
+        <p><?php echo get_theme_mod('red_box_text') ?></p>
         <div class="main-link">
-            <a href="/speaker">Watch my talk</a>
-            
+            <a href="<?php echo get_theme_mod('red_box_url') ?>"><?php echo get_theme_mod('red_box_button_title') ?></a>
         </div>
-
-
     </div>
-
-    <div class="box orange human-box" id="human">
+    <!-- Yella -->
+    <div class="box yellow human-box" id="human">
         <div class="upper-message">
-            <h1>Human</h1>
+             <h1><?php echo get_theme_mod('yellow_box_title') ?></h1>
+             <p><?php echo get_theme_mod('yellow_box_subtitle') ?></p>
         </div>
-        <p>I enjoy traveling and experiencing beautiful new sights around the world. When home, I enjoy quality time with my family and close friends, as well as singing.</p>
+        <p><?php echo get_theme_mod('yellow_box_text') ?></p>
         <div class="main-link">
-            <a href="/about">Get to know me</a>
-            
+            <a href="<?php echo get_theme_mod('yellow_box_url') ?>"><?php echo get_theme_mod('yellow_box_button_title') ?></a>
         </div>
     </div>
     <?php

@@ -19,7 +19,7 @@ h4 {
     font-family: 'Archivo Black', sans-serif;
 }
 
-p{
+p {
     margin-bottom: 0.5rem;
 }
 
@@ -27,29 +27,12 @@ p{
     outline: none;
 }
 
+.name-tag-picture {
+    background-size: cover;
+}
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
-
-@include media-query($on-palm) {
-    .inner-wrapper {
-        padding: 1em;
-        h1 {
-            font-size: 5rem;
-        }
-    }
-}
-
-@include media-query(1200px) {
-    .inner-wrapper {
-        padding: 1em;
-        h1 {
-            font-size: 5rem;
-        }
-    }
-}
-
-// Hello Boys!
-@include media-query(1360px) {}
