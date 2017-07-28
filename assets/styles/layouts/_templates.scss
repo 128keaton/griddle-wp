@@ -1,5 +1,4 @@
 // Griddle Standard
-
 .griddle {
     background-color: #000;
     color: #ffffff;
@@ -12,23 +11,21 @@
             color: #000;
             padding-left: 0.2em;
         }
-        .decoration{
+        .decoration {
             display: none;
         }
     }
-    .media-description{
-        p{
+    .media-description {
+        p {
             font-size: 20px;
         }
     }
-    .home-link{
+    .home-link {
         color: #ffffff;
     }
 }
 
-
 // Author
-
 .book {
     max-width: 65%;
     .inner {
@@ -118,12 +115,12 @@
 }
 
 // Human
-
-.human{
-    p{
+.human {
+    p {
         font-size: 20px;
+        color: #fff;
     }
-    .home-link{
+    .home-link {
         color: #ffffff;
     }
 }

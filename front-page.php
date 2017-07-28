@@ -23,11 +23,8 @@
     <div class="box green" id="author">
         <div class="upper-message">
             <h1>Author</h1>
-
         </div>
-
-        <p>After my beloved mother died in December 2012, it became important for me to share my story in order to inspire others traveling along grief's challenging road. <br> <br> 'Relaxing Into the Pain' is my God-breathed debut book, a publication by
-            WestBow Press</p>
+        <p>After my beloved mother died in December 2012, it became important for me to share my story in order to inspire others traveling along grief's challenging road.</p>
         <div class="main-link">
             <a href="/author">Read my book</a>
             <a class="arrow"></a>

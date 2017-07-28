@@ -1,5 +1,4 @@
 // TODO Refactor this file
-
 .box {
     padding: 2.5em;
     text-align: left;
@@ -9,6 +8,7 @@
         h1 {
             font-size: 4rem;
             font-weight: normal;
+            margin-bottom: 1em;
         }
     }
     .left {
@@ -84,8 +84,9 @@
 .red-title {
     color: $red-color!important;
 }
-.blog{
-    h1{
+
+.blog {
+    h1 {
         color: #000000!important;
     }
 }
