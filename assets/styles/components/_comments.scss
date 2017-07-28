@@ -1,19 +1,63 @@
 .comment-list {
-  @extend .list-unstyled;
+    @extend .list-unstyled;
 }
+
 .comment-list ol {
-  list-style: none;
+    list-style: none;
 }
+
 .comment-form p {
-  @extend .form-group;
+    @extend .form-group;
 }
+
 .comment-form input[type="text"],
 .comment-form input[type="email"],
 .comment-form input[type="url"],
 .comment-form textarea {
-  @extend .form-control;
+    @extend .form-control;
 }
+
 .comment-form input[type="submit"] {
-  @extend .btn;
-  @extend .btn-secondary;
+    @extend .btn;
+    @extend .btn-secondary;
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment {
+    background-color: #000;
+    padding: 1.2em;
+    color: #fff;
+    .comment-author {
+        img {
+            display: none;
+        }
+        .comment-metadata {
+            a {
+                color: #fff;
+            }
+            .edit-link a {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.comments {
+    h2 {
+        font-family: 'Archivo Narrow', sans-serif;
+        margin-top: 1.2em;
+    }
+    .comment-respond {
+        #reply-title {
+            font-family: 'Archivo Narrow', sans-serif;
+            margin-top: 1.2em;
+        }
+        .comment-form-comment textarea {
+            border-radius: 0;
+        }
+    }
 }

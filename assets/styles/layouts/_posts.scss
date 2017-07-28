@@ -34,3 +34,19 @@ article {
         }
     }
 }
+
+.post {
+    padding: 2.2em;
+    max-width: 65%;
+    p {
+        font-size: 20px;
+    }
+        header {
+        h1.blog-header {
+            font-size: 7rem!important;
+            font-weight: 400;
+            margin-top: 42px;
+            margin-bottom: 42px;
+        }
+    }
+}
