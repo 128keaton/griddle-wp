@@ -1,11 +1,11 @@
 <?php
 /**
- * Template Name: Author Template
+ * Template Name: Media Template
  */
 ?>
 
-<div class="inner-wrapper author">
-<h1 class="green"><?php echo get_the_title(); ?></h1>
+<div class="inner-wrapper media">
+<h1><?php echo get_the_title(); ?></h1>
   <?php
     while ( have_posts() ) : the_post(); ?>
             <?php the_content(); ?> 

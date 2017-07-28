@@ -1,7 +1,52 @@
-// Griddle Standard
-.griddle {
-    background-color: #000;
-    color: #ffffff;
+// Blog
+.blog {
+    border-bottom: 2px solid $light-color;
+    h1 {
+        color: $dark-text-color!important;
+    }
+}
+
+// Services
+.services {
+    background-color: $blue-color;
+    h1 {
+        color: $dark-text-color;
+    }
+}
+
+.service,
+.background {
+    max-width: 65%;
+    h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        border-bottom: none;
+        background-color: $dark-color;
+        color: $light-color;
+        padding-left: 0.2em;
+        padding-bottom: 0.1em;
+        padding-top: 0.1em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    form {
+        max-width: 64%;
+        margin-left: 4em;
+    }
+}
+
+.psychologist-header {
+    text-align: left;
+    .sow-headline {
+        text-align: left!important;
+    }
+}
+
+// Media
+.media {
+    background-color: $black-color;
+    color: $light-color;
+    flex-direction: column;
     .media-header {
         h3 {
             font-family: 'Archivo Narrow', sans-serif;
@@ -26,6 +71,22 @@
 }
 
 // Author
+.author {
+    background-color: $green-color;
+    h1 {
+        color: $dark-text-color;
+    }
+    h3 {
+        font-family: 'Archivo Narrow', sans-serif;
+        border-bottom: none;
+        background-color: $dark-color;
+        color: $light-color;
+        padding-left: 0.2em;
+        padding-bottom: 0.1em;
+        padding-top: 0.1em;
+    }
+}
+
 .book {
     max-width: 65%;
     .inner {
@@ -43,8 +104,8 @@
         display: flex;
         flex-direction: column;
         p {
-            font-size: 20px;
-            color: #ffffff;
+            font-size: 22px;
+            color: $dark-text-color;
         }
     }
     img {
@@ -63,7 +124,12 @@
     .sow-testimonial {
         height: 100%;
         .sow-text span {
-            font-size: 14px;
+            font-size: 16px;
+        }
+        .sow-testimonial-text {
+            p {
+                font-size: 22px;
+            }
         }
         .sow-testimonial-user {
             width: auto!important;
@@ -84,9 +150,10 @@
 
 // Speaker
 .speaker {
-    color: #ffffff;
-    .home-link {
-        color: #ffffff;
+    background-color: $red-color;
+    color: $dark-text-color;
+    h1 {
+        color: $dark-text-color;
     }
 }
 
@@ -97,8 +164,8 @@
             font-family: 'Archivo Narrow', sans-serif;
             font-size: 30px;
             margin-bottom: 0;
-            background-color: #ffffff;
-            color: $red-color;
+            background-color: $dark-color;
+            color: $light-color;
             padding-left: 0.2em;
         }
         .decoration {
@@ -116,11 +183,17 @@
 
 // Human
 .human {
+    background-color: $yellow-color;
     p {
         font-size: 20px;
-        color: #fff;
+        color: $dark-text-color;
     }
-    .home-link {
-        color: #ffffff;
-    }
+}
+
+.home-link {
+    color: $dark-text-color;
+}
+
+.home-link:hover {
+    color: $dark-color;
 }

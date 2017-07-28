@@ -1,8 +1,8 @@
-// TODO Refactor this file
 .box {
     padding: 2.5em;
     text-align: left;
     font-size: 22px;
+    color: $dark-text-color;
     .upper-message {
         grid-area: message;
         h1 {
@@ -25,68 +25,39 @@
         align-items: center;
         align-content: center;
         a {
-            color: #FFFFFF;
+            background-color: #FFFFFF;
             text-decoration: none;
+            color: $dark-text-color;
+            padding: 0.1em 0.5em 0.1em 0.5em;
         }
     }
     p {
         font-size: 1em;
+        color: $dark-text-color;
     }
 }
 
-// Colors
-.blue {
-    background-color: $blue-color;
-    color: #e1ebf7;
-    .home-link {
-        color: #FFFFFF;
-    }
-}
-
+// Grid Areas
 .psychologist-box {
     grid-area: phd;
     display: grid;
     grid-template-areas: "message . secondary" "content . secondary";
     grid-template-columns: 50% auto;
+    background-color: $blue-color;
 }
 
-.blue-title {
-    color: #3151b7!important;
-}
-
-.green {
-    background-color: $green-color;
+.author-box {
     grid-area: author;
-    .home-link {
-        color: #FFFFFF;
-    }
+    background-color: $green-color;
 }
 
-.green-title {
-    color: #57d785!important;
-}
-
-.orange {
-    background-color: $orange-color;
-    color: #fff;
-    grid-area: person;
-}
-
-.orange-title {
-    color: $orange-color!important;
-}
-
-.red {
-    background-color: $red-color;
+.speaker-box {
     grid-area: speaker;
+    background-color: $red-color;
 }
 
-.red-title {
-    color: $red-color!important;
+.human-box {
+    grid-area: person;
+    background-color: $yellow-color;
 }
 
-.blog {
-    h1 {
-        color: #000000!important;
-    }
-}

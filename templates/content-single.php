@@ -2,9 +2,9 @@
   <article <?php post_class(); ?>>
     <header>
       <h1 class="blog-header">Blog</h1>
-      <a class="home-link" href="/blog">Back</a>
-      <h1 class="entry-title"><?php the_title(); ?></h1>
+      <h3 class="entry-title"><?php the_title(); ?></h3>
       <?php get_template_part('templates/entry-meta'); ?>
+      <br>
     </header>
     <div class="entry-content">
       <?php the_content(); ?>
