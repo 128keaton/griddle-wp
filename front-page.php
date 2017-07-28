@@ -42,7 +42,7 @@
 
         </div>
 
-        <p>Lorum ipsum bull</p>
+        <p>I enjoyed the privilege of doing a TEDx talk on May 1, 2015 in Houston, TX, which showcased the theme: "A Palette of Perspectives."</p>
         <div class="main-link">
             <a href="/speaker">View my talks</a>
             <a class="arrow"></a>
@@ -55,8 +55,7 @@
         <div class="upper-message">
             <h1>Human</h1>
         </div>
-        <p>I enjoy traveling and experiencing beautiful new sights around the world. When home, I enjoy quality time with my family and close friends, as well as singing. I'm an avid journal writer who cherishes quiet time with Jesus, cinnamon Chai tea lattes,
-            gorgeous sunsets, and walks in the park with my sweet 14 year-old Beagle, Hunter</p>
+        <p>I enjoy traveling and experiencing beautiful new sights around the world. When home, I enjoy quality time with my family and close friends, as well as singing.</p>
         <div class="main-link">
             <a href="/about">Get to know me</a>
             <a class="arrow"></a>
