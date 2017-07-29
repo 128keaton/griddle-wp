@@ -1,6 +1,8 @@
 # Griddle
+[![Build Status](https://travis-ci.org/128keaton/griddle-wp.svg?branch=master)](https://travis-ci.org/128keaton/griddle-wp)
+
 <img src="https://github.com/128keaton/griddle-wp/raw/master/screenshot.png">
-**Disclaimer: This theme is currently in development.**
+**This theme is currently in development**
 
 ## About the Grid
 Right now, the front page is the only page using CSS grid. The reason being is that most of the pages don't need a grid layout, but I am using flex. No floats and hacks here. 
