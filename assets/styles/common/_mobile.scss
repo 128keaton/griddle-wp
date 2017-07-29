@@ -9,6 +9,17 @@
                 margin-bottom: 0.5em;
             }
         }
+        .right{
+            display: none;
+        }
+
+    }
+    .author .inner-wrapper .buy{
+        display: block;
+        margin: 0 auto;
+        .buy-button{
+            margin: 0 auto;
+        }
     }
     .home-wrapper {
         grid-template-columns: 1fr;
@@ -25,8 +36,8 @@
                 margin: 0;
             }
         }
-        grid-template-areas: "header" "phd" "speaker" "author" "person" "footer";
-        .psychologist-box {
+        grid-template-areas: "header" "main-area" "green-area" "red-area" "yellow-area" "footer";
+        .main-box {
             display: block;
             .right {
                 display: none;
