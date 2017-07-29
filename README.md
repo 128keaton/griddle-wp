@@ -16,5 +16,11 @@ This theme was built using [Sage](https://roots.io/sage/) v8, so you can add you
 ## Contributing
 This theme was built for a client which I currently maintain, so I will fix bugs as I see them. Feel free to find your own and submit fixes as you see fit.
 
+## Components
+### Font:
+The beautiful [Lunchtype](http://lunchtype.com/) font is being used throughout the theme, notabily Lunchtype25 for just about everything, and Lunchtype23_italic for h1 tags.
+### Base:
+As stated above, this theme was built using [Sage](https://roots.io/sage/) V8. I am still learning PHP so forgive any wierdness. PHPCS already reminds me I'm terrible :)
+ 
 ## Other
 Look, most of the css needs to be reorganized, I know that, and there are some best practices that I should look at again, but it works. It will get refactored soon, I promise (lol).
