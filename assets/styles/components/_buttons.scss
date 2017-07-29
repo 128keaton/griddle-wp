@@ -34,7 +34,8 @@
 }
 
 .book-link a {
-    color: $green-color;
+    // Readability suffers if it is set to the default green color
+    color: #5ba234;
 }
 
 .talks-link a {
