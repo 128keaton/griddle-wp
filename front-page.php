@@ -4,7 +4,7 @@
         <h1><?php echo get_bloginfo('name')?></h1>
     </div>
     <!-- Blue -->
-    <div class="box blue psychologist-box" id="ph.d">
+    <div class="box blue main-box">
         <div class="upper-message">
             <h1><?php echo get_theme_mod('main_box_title') ?></h1>
             <p><?php echo get_theme_mod('main_box_subtitle') ?></p>
@@ -20,7 +20,7 @@
         </div>
     </div>
     <!-- Green -->
-    <div class="box green author-box" id="author">
+    <div class="box green green-box">
         <div class="upper-message">
             <h1><?php echo get_theme_mod('green_box_title') ?></h1>
             <p><?php echo get_theme_mod('green_box_subtitle') ?></p>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <!-- Red -->
-    <div class="box red speaker-box" id="speaker">
+    <div class="box red red-box">
         <div class="upper-message">
              <h1><?php echo get_theme_mod('red_box_title') ?></h1>
              <p><?php echo get_theme_mod('red_box_subtitle') ?></p>
@@ -42,7 +42,7 @@
         </div>
     </div>
     <!-- Yella -->
-    <div class="box yellow human-box" id="human">
+    <div class="box yellow yellow-box">
         <div class="upper-message">
              <h1><?php echo get_theme_mod('yellow_box_title') ?></h1>
              <p><?php echo get_theme_mod('yellow_box_subtitle') ?></p>

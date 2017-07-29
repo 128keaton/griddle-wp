@@ -5,7 +5,71 @@
 .home-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "header header header" "phd phd phd" "speaker author person" "footer footer footer";
+    grid-template-areas: "header header header" "main-area main-area main-area" "red-area green-area yellow-area" "footer footer footer";
     grid-gap: $grid-gap;
     flex: 1;
 }
+
+// Box Container
+.box {
+    padding: 2.5em;
+    text-align: left;
+    font-size: 22px;
+    color: $dark-text-color;
+    .upper-message {
+        grid-area: message;
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1em;
+        }
+    }
+    .left {
+        grid-area: content;
+    }
+    .right {
+        grid-area: secondary;
+    }
+    .main-link {
+        margin-top: 12px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        a {
+            background-color: #FFFFFF;
+            text-decoration: none;
+            color: $dark-text-color;
+            padding: 0.1em 0.5em 0.1em 0.5em;
+        }
+    }
+    p {
+        font-size: 1em;
+        color: $dark-text-color;
+    }
+}
+
+// Grid Areas
+.main-box {
+    grid-area: main-area;
+    display: grid;
+    grid-template-areas: "message . secondary" "content . secondary";
+    grid-template-columns: 50% auto;
+    background-color: $blue-color;
+}
+
+.green-box {
+    grid-area: green-area;
+    background-color: $green-color;
+}
+
+.red-box {
+    grid-area: red-area;
+    background-color: $red-color;
+}
+
+.yellow-box {
+    grid-area: yellow-area;
+    background-color: $yellow-color;
+}
+

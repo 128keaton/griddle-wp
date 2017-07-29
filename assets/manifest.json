@@ -4,9 +4,6 @@
       "files": [
         "scripts/main.js"
       ],
-      "vendor": [
-	"assets/scripts/modernizr.js"
-      ],
       "main": true
     },
     "main.css": {
@@ -14,6 +11,11 @@
         "styles/main.scss"
       ],
       "main": true
+    },
+    "fonts": {
+      "main": [
+        "./fonts/*"
+      ]
     },
     "customizer.js": {
       "files": [

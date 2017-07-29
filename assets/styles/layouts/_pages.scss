@@ -3,30 +3,47 @@
     padding: 2.5em;
     h1 {
         font-size: 7rem;
-        font-weight: normal;
         margin-top: 42px;
+        font-weight: 100;
         margin-bottom: 42px;
-        color: rgba(255, 255, 255, 0.65);
+        color: $dark-text-color;
+        font-family: 'lunchtype23light_italic';
     }
     h2 {
         margin-top: 25px;
         margin-bottom: 25px;
     }
-}
-
-
-.front-page {
-    margin-top: 2em;
     h3 {
-        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 40px;
+        font-weight: 100;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        color: #000;
+        padding-left: 0.2em;
     }
 }
 
+.front-page {
+    margin-top: 2em;
+}
 
+.error404{
+    .page-content{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    background-color: $red-color;
+    .inner-wrapper{
+        flex: 1;
+    }
+    h1{
+        font-weight: 100;
+        font-size: 15em;
+    }
+}
 
-/* Name Tag
-    Appears in header and footer 
-*/
+/* Div: Name Tag */
 .name-tag {
     text-align: left;
     display: flex;
@@ -36,31 +53,25 @@
     margin-top: 1em;
     grid-area: header;
     color: #000000;
-
-    a, p{
+    a,
+    p {
         margin-left: 12px;
     }
-
-
-    h1{
+    h1 {
         font-weight: 100;
         font-size: 45px;
         margin-right: 2.2em;
-        a{
+        a {
             color: #000000;
         }
-        a:hover{
+        a:hover {
             text-decoration: none;
         }
     }
-    
-    .name-tag-picture{
+    .name-tag-picture {
         width: 10em;
         height: 10em;
         margin-right: 2.2em;
         background-size: cover;
     }
 }
-
-
-

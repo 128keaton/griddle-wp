@@ -1,4 +1,7 @@
 @include media-query($on-palm) {
+    .standard-layout{
+        max-width: 100%;
+    }
     .box {
         padding: 1.5em;
         .upper-message {
@@ -32,13 +35,6 @@
     }
     .sow-headline {
         font-size: 3rem!important;
-    }
-    .speech {
-        max-width: 100%;
-    }
-    .service,
-    .background {
-        max-width: 100%;
     }
     .service {
         form {
