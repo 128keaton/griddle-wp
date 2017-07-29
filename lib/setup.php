@@ -62,8 +62,6 @@ function widgets_init() {
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
   ]);
-
-
 }
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 

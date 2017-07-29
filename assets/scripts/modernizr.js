@@ -1,3 +1,4 @@
+// jscs:disable
 /* jshint ignore:start */
 /*! modernizr 3.5.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-cssgrid_cssgridlegacy-webp-setclasses !*/

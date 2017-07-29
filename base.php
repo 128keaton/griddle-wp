@@ -21,11 +21,11 @@ use Roots\Sage\Wrapper;
     <main class="page-content" role="document">
         <?php include Wrapper\template_path(); ?>
         <?php
-        if (!is_front_page()) { 
+        if (!is_front_page()) {
           do_action('get_footer');
           get_template_part('templates/footer');
         }
-      wp_footer();
+        wp_footer();
     ?>
     </main>
   

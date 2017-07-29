@@ -7,7 +7,7 @@
 <div class="inner-wrapper author">
 <h1 class="green"><?php echo get_the_title(); ?></h1>
   <?php
-    while ( have_posts() ) : the_post(); ?>
+  while (have_posts()) : the_post(); ?>
             <?php the_content(); ?> 
             <!-- Page Content -->
     <?php

@@ -1,7 +1,7 @@
 <div class="home-wrapper">
     <div class="name-tag">
         <div class="name-tag-picture" style="background-image: url(<?php echo get_theme_mod('header_image') ?>);"></div>
-        <h1><?php echo get_bloginfo( 'name' )?></h1>
+        <h1><?php echo get_bloginfo('name')?></h1>
     </div>
     <!-- Blue -->
     <div class="box blue psychologist-box" id="ph.d">

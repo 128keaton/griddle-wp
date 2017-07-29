@@ -8,7 +8,7 @@
 <div class="inner-wrapper services">
 <h1 class="blue"><?php echo get_the_title(); ?></h1>
   <?php
-    while ( have_posts() ) : the_post(); ?>
+  while (have_posts()) : the_post(); ?>
             <?php the_content(); ?> 
             <!-- Page Content -->
     <?php
